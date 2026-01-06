@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body class="body-doc">
+    <div class="wrap-doc">
+      <form action="submitDoc.php" method="POST" class="login-form">
+        <div class="admin">SignUp</div>
+        <div class="header">
+          <h1>
+            <span class="paragraph"> Enter your credentials </span>
+          </h1>
+        </div>
+        <div class="user-input">
+          <input
+            class="input-field"
+            name="doctor_id"
+            type="text"
+            placeholder="Enter Id"
+          />
+        </div>
+        <div class="user-input">
+          <input
+            class="input-field"
+            name="first_name"
+            type="text"
+            placeholder="Enter Your first Name"
+          />
+        </div>
+        <div class="user-input">
+          <input
+            class="input-field"
+            name="last_name"
+            type="text"
+            placeholder="Enter Your last name"
+          />
+        </div>
+
+        <div class="user-input">
+          <input
+            class="input-field"
+            name="middle_name"
+            type="text"
+            placeholder="Enter your middle name"
+            required="optional"
+          />
+        </div>
+
+        <div class="user-input">
+          <input
+            class="input-field"
+            name="date_of_birth"
+            type="date"
+            placeholder="Enter your date of birth"
+          />
+        </div>
+        <div class="user-input">
+          <input
+            class="input-field"
+            name="specialization"
+            type="text"
+            placeholder="Enter your specialization"
+          />
+        </div>
+        <div class="user-input">
+          <input
+            class="input-field"
+            name="qualification"
+            type="text"
+            placeholder="Enter your  qualification"
+          />
+        </div>
+        <div class="user-input">
+          <input
+            class="input-field"
+            name="license_number"
+            type="int"
+            placeholder="Enter your license number"
+          />
+        </div>
+        <div class="user-input">
+          <input
+            class="input-field"
+            name="license_authority"
+            type="text"
+            placeholder="License authority"
+          />
+        </div>
+        <div class="user-input">
+          <input
+            class="input-field"
+            name="years_experience"
+            type="text"
+            placeholder="Years of experience"
+          />
+        </div>
+        <div class="user-input">
+          <input
+            class="input-field"
+            name="password"
+            type="password"
+            placeholder="Enter new password"
+          />
+        </div>
+        <div class="user-input">
+          <input
+            class="input-field"
+            name="email_address"
+            type="text"
+            placeholder="Enter email address"
+          />
+        </div>
+        <div class="user-input">
+          <input
+            class="input-field"
+            name="phone_number"
+            type="int"
+            placeholder="Enter phone number"
+          />
+        </div>
+        <div class="user-input">
+          <input
+            class="input-field"
+            name="address"
+            type="text"
+            placeholder="Enter address"
+          />
+        </div>
+        <div class="user-input">
+          <label>
+            Select Gender
+            <select name="gender" title="gender" id="search-1">
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </label>
+
+          <div class="submit-btn">
+            <!-- SignUp Button -->
+            <button class="sub-btn" type="submit">SignUp</button>
+          </div>
+        </div>
+
+        <div class="form-paragraph">
+          <p class="text-paragraph">
+            Already have an account? <a href="/login.html">Login</a>
+          </p>
+        </div>
+      </form>
+    </div>
+    <img src="/thumbnails/doctors.webp" alt="image" />
+  </body>
+</html>
